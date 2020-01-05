@@ -1,3 +1,4 @@
+require('dotenv').config()
 const config = require('./contentful.json')
 
 const contentful = require('contentful')
@@ -14,7 +15,8 @@ module.exports = {
   },
 
   modules: [
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    '@nuxtjs/dotenv'
   ],
 
   plugins: [
