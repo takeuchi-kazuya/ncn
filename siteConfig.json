@@ -1,0 +1,37 @@
+{
+  "title": "nuxt contentful netlify",
+  "subtitle": "sample app",
+  "categoriesFeatured": [{
+      "name": "Photo Category",
+      "slug": "photo01",
+      "description": "Photoの投稿"
+    },
+    {
+      "name": "Place Category",
+      "slug": "place01",
+      "description": "Placeの投稿"
+    }
+  ],
+  "listOption": {
+    "showNum": 6,
+    "loadNum": 3,
+    "showNumTop": 6,
+    "showNumLatest": 6,
+    "showNumRec": 6,
+    "listPostsOrder": "fields.slug",
+    "listPostsOrderDirection": -1,
+    "notFoundMessage": "見つかりませんでした"
+  },
+  "postOption": {
+    "fontSize": "16px",
+    "lineHeight": "1.7",
+    "defaultImg": "http://placehold.jp/300x300.png"
+  },
+  "backgroundImageOption": {
+    "repeat": "no-repeat",
+    "size": "contain",
+    "position": "center center",
+    "attachment": "auto",
+    "filter": "opacity(.2)"
+  }
+}
