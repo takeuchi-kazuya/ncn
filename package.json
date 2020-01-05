@@ -11,13 +11,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/markdownit": "^1.2.6",
-    "contentful": "^7.9.1",
+    "@nuxtjs/markdownit": "^1.2.7",
+    "contentful": "^7.11.3",
     "markdown-it": "^9.1.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.11.0",
+    "serialize-javascript": "^2.1.2",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "vue2-filters": "^0.7.1"
+    "vue2-filters": "^0.7.2"
   },
   "devDependencies": {}
 }
