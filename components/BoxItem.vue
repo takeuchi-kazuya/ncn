@@ -62,6 +62,10 @@ export default {
     max-width: 250px;
     margin: 3rem 1rem;
   }
+  &:hover {
+    border: 1px solid #555;
+  }
+
 
   .img {
     width: 50px;
@@ -91,10 +95,6 @@ export default {
 
   .text-box {
     margin: 65px 10px 5px 10px;
-
-    &:hover {
-      border: 1px solid #555;
-    }
 
     h1 {
       font-size: 1rem;
