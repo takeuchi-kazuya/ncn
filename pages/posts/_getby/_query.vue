@@ -43,7 +43,7 @@ import BoxItem from "~/components/BoxItem.vue";
 import Vue2Filters from "vue2-filters";
 import siteConfig from "~/siteConfig.json";
 import { createClient } from "~/plugins/contentful.js";
-import Header from "~/components/header.vue";
+import Header from "~/components/Header.vue";
 
 const client = createClient();
 

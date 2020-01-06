@@ -15,7 +15,7 @@
 <script>
 import { createClient } from "~/plugins/contentful.js";
 import siteConfig from "~/siteConfig.json";
-import Header from "~/components/header.vue";
+import Header from "~/components/Header.vue";
 import List from "~/components/List.vue";
 
 const client = createClient();
