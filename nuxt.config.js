@@ -1,17 +1,15 @@
 require('dotenv').config()
-const config = require('./contentful.json')
-
 const contentful = require('contentful')
 const client = contentful.createClient({
-  space: config.CTF_SPACE_ID,
-  accessToken: config.CTF_CDA_ACCESS_TOKEN
+  space: process.env.CTF_SPACE_ID,
+  accessToken: process.env.CTF_CDA_ACCESS_TOKEN
 })
 
 module.exports = {
 
   env: {
-    CTF_SPACE_ID: config.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN
+    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN
   },
 
   modules: [
@@ -20,7 +18,8 @@ module.exports = {
   ],
 
   plugins: [
-    '~/plugins/vue2-filters'
+    '~/plugins/vue2-filters',
+    '~/plugins/contentful',
   ],
 
   markdownit: {
